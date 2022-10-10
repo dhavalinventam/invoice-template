@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Invoice</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;">
+
+	<div class="invoice-main-div"
+		style="width: 600px;height: 100%;margin: 0 auto;background-color: #ffffff;border: 2px dashed #ffede6;border-radius: 5px;">
+
+		<!-- invoice-header-div -->
+		<header>
+			<div class="invoice-header-div"
+				style="display: flex;align-items: center;padding: 20px;border-bottom: 2px dashed #ffede6;background-color: #ffede6;">
+				<div class="invoice-logo-div" style="width: 100%;">
+					<a href="https://inventam.com/" target="_blank" style="display: flex;">
+						<img src="images/logo.png" alt="logo" style="max-width: 165px;">
+					</a>
+				</div>
+				<div class="invoice-date-formate-div" style="width: 100%;">
+					<div class="invoice-common-div"
+						style="display: flex;align-items: center;margin-bottom: 2px;float: right;">
+						<p class="invoice-common-title"
+							style="font-size: 14px;font-weight: 600;text-align: left;text-transform: uppercase;margin-right: 5px;">
+							Date : </p>
+						<p class="invoice-common-title-fill"
+							style="text-align: right;color: #182a45;text-transform: uppercase;font-size: 14px;">
+							15-3-2022 </p>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div style="padding: 20px;">
+			<!-- highlight contain -->
+			<div class="highlight-contain-div">
+				<div style="text-align: center;margin-bottom: 30px;margin-top: 20px;"> 
+					<img src="images/payment-reminder.png" alt="payment-reminder" style="max-width: 300px;">
+				</div>
+				<p style="font-size: 20px;margin-bottom: 25px;text-align: center;color: #f75d59;"><b>1<sup>st</sup> Reminder for invoice no.
+						[#85]</b></p>
+				<p
+					style="color: #162844;font-size: 14px;line-height: 22px;text-align: left;letter-spacing: 0.5px;margin-bottom: 5px;">
+					<b>Dear</b> John Doe,
+				</p>
+				<p
+					style="color: #162844;font-size: 14px;line-height: 22px;text-align: left;letter-spacing: 0.5px;margin-bottom: 12px;">
+					I hope
+					you’re well. This is just to remind
+					you that payment on <b>invoice #85</b>, which we sent on March 25th, will be due next week.
+				</p>
+
+				<p style="color: #162844;font-size: 14px;line-height: 22px;text-align: left;letter-spacing: 0.5px; margin-bottom: 12px;">I’ve
+					reattached the invoice for your convenience. Payment can be made by direct deposit, bank transfer, or
+					check.
+				</p>
+
+				<p style="color: #162844;font-size: 14px;line-height: 22px;text-align: left;letter-spacing: 0.5px;">Please
+					feel free to contact me if you have any questions about the invoice or payment details.
+				</p>
+			</div>
+
+			<!-- Footer -->
+			<div class="footer-contain-div" style="margin-top: 60px;">
+				<p
+					style="color: #162844;font-size: 14px;line-height: 22px;text-align: left;letter-spacing: 0.5px;margin-bottom: 5px;">
+					<b>Thank you!</b>
+				</p>
+				<p style="color: #162844;font-size: 14px;line-height: 22px;text-align: left;letter-spacing: 0.5px;">Ishani
+					Desai
+				</p>
+				<p style="color: #162844;font-size: 14px;line-height: 22px;text-align: left;letter-spacing: 0.5px;">
+					Co-founder & CEO</p>
+				<p style="color: #162844;font-size: 14px;line-height: 22px;text-align: left;letter-spacing: 0.5px;">Inventam
+					Tech Solution OPC Private Limited</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
